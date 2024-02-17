@@ -1,0 +1,144 @@
+
+body {
+  font-family: sans-serif;
+  background-color: hsl(13, 80%, 72%);
+  margin: 0;
+}
+
+.master {
+  width: 600px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  color: rgb(151, 0, 0);
+}
+p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: serif;
+ 
+}
+h1 {
+  font-weight: 600;
+  font-family: serif;
+}
+ul ol{
+    padding: 3px;
+}
+
+.omelette {
+  height: 220px;
+  border-radius: 10px;
+}
+
+.recipe {
+  margin-left: 15px;
+}
+
+.preperation{
+    background-color: rgb(241, 220, 220);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.prep-time {
+  margin-left: 30px;
+}
+
+.list1 {
+  margin-left: 10px;
+}
+.list1 li {
+    margin-bottom: 8px; 
+}
+.list2{
+    background-color: rgb(241, 220, 220);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+.instruction li {
+    margin-bottom: 8px; 
+}
+.ingredient-heading{
+    font-weight: 700;
+    margin-left: -50px;
+}
+.second-section ul li{
+    margin-bottom: 8px; 
+}
+
+.instructions-heading , b{
+    font-weight: 700;
+}
+
+.instructions ol li{
+    margin-bottom: 8px; 
+}
+.nutrition-heading{
+    margin-left: -60px;
+    font-weight: 700;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #000;
+  font-weight: 700;
+}
+tr:last-child td{
+    border-bottom: none;
+}
+
+ul {
+    list-style-type: none; 
+  }
+  
+  ul li {
+    padding-left: 20px; 
+    position: relative;
+  }
+  
+  ul li::before {
+    content: "\2022"; 
+    position: absolute;
+    left: 0;
+    margin-right: 10px;
+  }
+  
+  .attribution{
+    text-align: center;
+    margin-top: 10px;
+    background: #564e4e;
+    padding: 10px;
+  }
+
+  @media (max-width: 1440px) {
+    .master {
+      width: 600px;
+    }
+  }
+  
+  
+  @media (max-width: 375px) {
+    .master {
+      width: 350px;
+      border-radius: 0;
+    }
+    .omelette{
+        height: 150px;
+        border-radius: 0;
+    }
+  }
